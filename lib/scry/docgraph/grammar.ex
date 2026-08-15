@@ -1,10 +1,9 @@
 defmodule Scry.DocGraph.Grammar do
   @moduledoc """
   Composes core's own grammar with *both* `scry_document`'s and
-  `scry_graph`'s own `priv/grammar.aether` fragments -- `impl_spec.md`
-  §4's composition mechanics, folded twice (`Scry.Core.GrammarCompose.
-  merge/2`'s own moduledoc documents exactly this: "to compose more
-  than one fragment, fold this over a list").
+  `scry_graph`'s own `priv/grammar.aether` fragments -- folded twice
+  (`Scry.Core.GrammarCompose.merge/2`'s own moduledoc documents exactly
+  this: "to compose more than one fragment, fold this over a list").
 
   **This package contributes no grammar fragment of its own.** Unlike
   `scry_document`/`scry_graph`, there is no `priv/grammar.aether` here

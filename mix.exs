@@ -121,7 +121,7 @@ defmodule Scry.DocGraph.MixProject do
   end
 
   defp description do
-    "The document + graph composite kind for Scry (impl_spec.md §2/§6) -- a real fused " <>
+    "The document + graph composite kind for Scry -- a real fused " <>
       "executor combining DEEP/PARENT/SIBLINGS/ANCESTORS with VIA/PATH in the same query body."
   end
 

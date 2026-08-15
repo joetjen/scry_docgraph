@@ -1,8 +1,8 @@
 defmodule Scry.DocGraph.Executor do
   @moduledoc """
   Runs a parsed docgraph query against a `Scry.DocGraph.Conn.t()` --
-  interprets `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS` (lang_spec.md §8.3)
-  *and* `VIA`/`PATH` (lang_spec.md §8.1) in the same query body, each
+  interprets `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS`
+  *and* `VIA`/`PATH` in the same query body, each
   independently nestable inside any of the others.
 
   **Why this needs a genuinely new dispatcher, not a delegation to

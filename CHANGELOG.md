@@ -4,7 +4,7 @@
 
 ### Added
 
-- The `document` + `graph` composite kind (impl_spec.md §2/§6) -- a real fused executor,
+- The `document` + `graph` composite kind -- a real fused executor,
   not a thin delegate: `document` and `graph` are each independent kinds that bypass
   `Scry.Core.EngineBehaviour` with their own bespoke executors, each recognizing only
   its own `{:variant, ...}` tags, so composing `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS`

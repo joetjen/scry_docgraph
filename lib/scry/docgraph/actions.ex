@@ -56,7 +56,7 @@ defmodule Scry.DocGraph.Actions do
       end
   end
 
-  # lang_spec.md §8.3: bare `DEEP`, EP1(a) header modifier -- owned by
+  # Bare `DEEP`, EP1(a) header modifier -- owned by
   # `scry_document`'s own fragment only (`scry_graph` contributes no
   # `select_ep1a` fill), identical to `Scry.Document.Actions`'s own
   # handler.

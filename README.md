@@ -1,8 +1,7 @@
 # Scry.DocGraph
 
-The `document` + `graph` composite kind for [Scry](https://github.com/joetjen/scry)
-(impl_spec.md §2/§6) -- `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS` (lang_spec.md §8.3)
-alongside `VIA`/`PATH` (lang_spec.md §8.1), in the same query body, each independently
+The `document` + `graph` composite kind for Scry -- `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS`
+alongside `VIA`/`PATH`, in the same query body, each independently
 nestable inside any of the others.
 
 **A real fused executor, not a thin delegate** -- unlike `scry_reltime`/`scry_reldoc`

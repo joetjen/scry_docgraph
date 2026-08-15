@@ -1,8 +1,8 @@
 defmodule Scry.DocGraphTest do
   @moduledoc """
   The real proof this composite needs a fused executor, unlike `scry_reltime`/
-  `scry_reldoc`: `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS` (lang_spec.md §8.3)
-  composed with `VIA`/`PATH` (lang_spec.md §8.1) *and* a correlated
+  `scry_reldoc`: `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS`
+  composed with `VIA`/`PATH` *and* a correlated
   nested `SELECT`, in the same query body, each independently nestable
   inside any of the others -- executed end to end against a real
   `Scry.DocGraph.Conn`, not just asserted from either single-kind
